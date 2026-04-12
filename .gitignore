@@ -1,7 +1,7 @@
 /bin/
 /.classpath
 /.project
-/temp
+/temp/
 
 # Compiled class file
 *.class

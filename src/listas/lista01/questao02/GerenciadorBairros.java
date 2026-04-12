@@ -1,4 +1,4 @@
-package temp.listas.lista01.questao02;
+package listas.lista01.questao02;
 
 class Bairro {
 
