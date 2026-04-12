@@ -1,4 +1,4 @@
-package listas.lista05.questao02;
+package temp.listas.lista05.questao02;
 
 // Encapsulamento de dados típicos de aluno
 public class Aluno {

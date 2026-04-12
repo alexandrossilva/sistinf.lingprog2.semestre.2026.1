@@ -1,4 +1,4 @@
-package listas.lista01.questao07;
+package temp.listas.lista01.questao07;
 
 public class Animal {
 

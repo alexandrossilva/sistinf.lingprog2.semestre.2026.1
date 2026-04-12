@@ -1,4 +1,4 @@
-package listas.lista01.questao09;
+package temp.listas.lista01.questao09;
 
 class A1 {
 

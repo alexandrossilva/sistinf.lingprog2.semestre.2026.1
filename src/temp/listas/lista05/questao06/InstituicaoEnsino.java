@@ -1,4 +1,4 @@
-package listas.lista05.questao06;
+package temp.listas.lista05.questao06;
 
 // Encapsulamento de dados típicos de instituição de ensino no território nacional
 public class InstituicaoEnsino {

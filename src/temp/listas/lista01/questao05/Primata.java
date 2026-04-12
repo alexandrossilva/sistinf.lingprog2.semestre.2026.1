@@ -1,4 +1,4 @@
-package listas.lista01.questao05;
+package temp.listas.lista01.questao05;
 
 class Mamifero {
 
