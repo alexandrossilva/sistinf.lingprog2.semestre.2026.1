@@ -1,0 +1,30 @@
+package aulas.aula11;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class LeitorBytes2 {
+
+	public static void main(String[] args) {
+		FileInputStream fluxo;
+		try {
+			fluxo = new FileInputStream("src/aulas/aula11/texto.txt");
+			int byteLido;
+			int cont = 0;
+			
+			do {
+				byteLido = fluxo.read();
+				cont++;
+				System.out.println("Byte " + cont + ": " + byteLido);
+			} while (byteLido != -1);
+			
+			fluxo.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("Arquivo não encontrado!");
+		} catch (IOException e) {
+			System.out.println("Erro em operação de leitura!");
+		}
+	}
+
+}
